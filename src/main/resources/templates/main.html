@@ -1,0 +1,47 @@
+<#import "macro.html" as m>
+<@m.page_header title='主页' />
+
+    <div class="wrapper wrapper-content gray-bg">
+        <div class="row">
+
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">文本框：</label>
+                    <div class="col-sm-9">
+                        <input type="text" name="" class="form-control" placeholder="请输入文本"> <span class="help-block m-b-none">说明文字</span>
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">密码框：</label>
+                    <div class="col-sm-9">
+                        <input type="password" class="form-control" name="password" placeholder="请输入密码">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">下拉列表：</label>
+                    <div class="col-sm-9">
+                        <select class="form-control" name=""></select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">纯文本：</label>
+                    <div class="col-sm-9">
+                        <p class="form-control-static">这里是纯文字信息</p>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">单选框：</label>
+                    <div class="col-sm-9">
+                        <label class="radio-inline">
+                            <input type="radio" checked="" value="option1" id="optionsRadios1" name="optionsRadios">选项1</label>
+                        <label class="radio-inline">
+                            <input type="radio" value="option2" id="optionsRadios2" name="optionsRadios">选项2</label>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+<@m.page_footer />
